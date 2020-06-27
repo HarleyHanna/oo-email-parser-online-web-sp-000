@@ -12,9 +12,7 @@ class EmailAddressParser
     if @email_array.include?("") == true
       @email_array.delete("")
     end
-    @email_array
-    @email_array.each do |element|
-      
+    @email_array.uniq
   end
   
     
