@@ -13,7 +13,8 @@ class EmailAddressParser
       @email_array.delete("")
     end
     @email_array
-    
+    @email_array.each do |element|
+      
   end
   
     
