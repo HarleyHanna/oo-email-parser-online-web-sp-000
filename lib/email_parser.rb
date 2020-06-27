@@ -13,6 +13,7 @@ class EmailAddressParser
       @email_array.delete("")
     end
     @email_array
+    
   end
   
     
